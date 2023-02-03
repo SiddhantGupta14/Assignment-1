@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto:wght@400;500&display=swap');
+.Strips{
+    height: 10vh;
+    width:95%;
+    background-color: rgb(232, 232, 239);
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.cc{
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    flex: 2;
+}
+.name p{
+    font-family: 'Itim', cursive;
+    font-size: 1.3rem;
+    
+}
+
+.contact{
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+}
+.heading{
+    font-weight: 600;
+    padding:10px 0;
+    font-family:'Roboto', sans-serif ;
+}
+.content{
+    font-family: 'Itim', cursive;
+}
+.city {
+    flex: 2;
+}
+.state {
+    flex: 2;
+}
+
+
+
+.button button{
+    background-color: rgb(212, 117, 117);
+    width: 7rem;
+    height: 3.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    padding:0.5rem;
+    flex: 2;
+}
